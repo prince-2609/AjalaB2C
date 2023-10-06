@@ -3,12 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="dnataForAUH.DnataHotelForAUH">
+      <class name="ajalaXchangeB2C.FlightBooking">
         <methods>
-          <include name="dnataforhotel" invocation-numbers="2"/>
-          <include name="afterMethod"/>
+          <include name="ajalaB2Cforflight" invocation-numbers="3 4 5 6 7 11 12 13 14"/>
+          <include name="afterMetod"/>
         </methods>
-      </class> <!-- dnataForAUH.DnataHotelForAUH -->
+      </class> <!-- ajalaXchangeB2C.FlightBooking -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

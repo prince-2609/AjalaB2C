@@ -17,52 +17,41 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.ExtentSparkReporterConfig;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-
-public class QaExtentReport 
-{
+public class QaExtentReport {
 
 	public static ExtentReports report;
 	public static ExtentTest test;
-	
-	public static void test_htmlreport()  
-	{
+
+	public static void test_htmlreport() {
 		Date date = new Date();
 		DateFormat d = new SimpleDateFormat("dd-MMM-yy & HH-mm-ss");
 		String NewDate = d.format(date);
-		
+
 		report = new ExtentReports();
-		
-		File file = new File("D:\\Automation\\DnataForAUH\\Reports\\"+NewDate+" report"+".html");
+
+		File file = new File("D:\\Automation\\AjalaB2C\\Reports\\" + NewDate + " report" + ".html");
 		ExtentSparkReporter sparkreporter = new ExtentSparkReporter(file);
 		ExtentSparkReporterConfig config = sparkreporter.config();
 		config.setTheme(Theme.DARK);
-		config.setReportName("Dnata");
-		config.setDocumentTitle("Dnata UAT");
-		
-		report.attachReporter(sparkreporter);	
-	}	
-	
-	public static void extentScreenshot(String txt) throws IOException
-	{
+		config.setReportName("Ajala");
+		config.setDocumentTitle("B2C");
+
+		report.attachReporter(sparkreporter);
+	}
+
+	public static void extentScreenshot(String txt) throws IOException {
 		test.info(MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot(txt)).build());
 	}
-	
-	public static String captureScreenshot(String text) throws IOException
-	{
+
+	public static String captureScreenshot(String text) throws IOException {
 		Date date = new Date();
 		DateFormat d = new SimpleDateFormat("dd-MM-yy & HH-mm-ss");
 		String NewDate = d.format(date);
-		
-		TakesScreenshot ts = (TakesScreenshot)QaBrowser.driver;
+
+		TakesScreenshot ts = (TakesScreenshot) QaBrowser.driver;
 		File Source = ts.getScreenshotAs(OutputType.FILE);
-		File Dest = new File("D:\\Automation\\DnataForAUH\\Screenshot\\"+NewDate+" "+text+".jpg");
+		File Dest = new File("D:\\Automation\\AjalaB2C\\Screenshot\\" + NewDate + " " + text + ".jpg");
 		FileUtils.copyFile(Source, Dest);
 		return Dest.getAbsolutePath();
 	}
 }
-
-
-
-
-
-

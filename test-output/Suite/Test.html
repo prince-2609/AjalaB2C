@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/9/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 04 16:30:39 IST 2023</td>
+<td>Started on:</td><td>Thu Sep 21 11:24:57 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>475 seconds (475285 ms)</td>
+<tr><td>Total time:</td><td>2879 seconds (2879115 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,800 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 7, Positive, Verify round trip flight booking with Individual for Domestic and modify search, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, RoundTrip, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), 22-October-2023, 24-October-2023, 1, 0, 0, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, Yes, Yes, RoundTrip, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 2, 1, 1, Yes, Economy, No, Yes, AUD, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98174e1a1498677a9cd9f3a25ae0f480, findElement {using=xpath, value=/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64313/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98174e1a1498677a9cd9f3a25ae0f480
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:332)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1553227495", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1553227495'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98174e1a1498677a9cd9f3a25ae0f480, findElement {using=xpath, value=/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64313/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98174e1a1498677a9cd9f3a25ae0f480
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:332)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>107</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 12, Positive, Verify round trip flight booking with multi passenger for International, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, RoundTrip, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), 23-October-2023, 25-October-2023, 2, 1, 1, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, No, Yes, RoundTrip, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 2, 1, 1, Yes, Economy, No, Yes, AUD, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4941a635a51e96bd72190e26f62a70, findElement {using=xpath, value=/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64740/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4941a635a51e96bd72190e26f62a70
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:332)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1499893989", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1499893989'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a4941a635a51e96bd72190e26f62a70, findElement {using=xpath, value=/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64740/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4941a635a51e96bd72190e26f62a70
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:332)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>71</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 14, Positive, Verify one way flight booking with multi passenger for International and modify search, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, OneWay, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), 12-October-2023, 12-October-2023, 2, 1, 1, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, Yes, Yes, OneWay, Domestic, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 1, 0, 0, Yes, Economy, No, Yes, INR, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [777a1fe4a60ee3ab01db3b3153cd35e5, findElement {using=xpath, value=(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64838/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 777a1fe4a60ee3ab01db3b3153cd35e5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:204)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2088265867", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2088265867'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [777a1fe4a60ee3ab01db3b3153cd35e5, findElement {using=xpath, value=(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64838/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 777a1fe4a60ee3ab01db3b3153cd35e5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:204)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>99</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 6, Positive, Verify one way flight booking with Individual for International and modify search, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, OneWay, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), 12-October-2023, 12-October-2023, 1, 0, 0, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, Yes, Yes, OneWay, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 1, 0, 0, Yes, Economy, No, Yes, INR, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51e7725d83152853ce7b81a038afe10f, findElement {using=xpath, value=(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64242/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51e7725d83152853ce7b81a038afe10f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:204)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1926138523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1926138523'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51e7725d83152853ce7b81a038afe10f, findElement {using=xpath, value=(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64242/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51e7725d83152853ce7b81a038afe10f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:204)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>100</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 4, Positive, Verify round trip flight booking with Individual for International, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, RoundTrip, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), 23-October-2023, 25-October-2023, 1, 0, 0, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, No, Yes, RoundTrip, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 2, 1, 1, Yes, Economy, No, Yes, AUD, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8a546067f85fb35ac0105418d72fb79, findElement {using=xpath, value=/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64128/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8a546067f85fb35ac0105418d72fb79
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:332)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1446787786", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1446787786'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8a546067f85fb35ac0105418d72fb79, findElement {using=xpath, value=/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64128/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8a546067f85fb35ac0105418d72fb79
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:332)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>75</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 8, Positive, Verify round trip flight booking with Individual for International and modify search, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, RoundTrip, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), 23-October-2023, 25-October-2023, 1, 0, 0, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, Yes, Yes, RoundTrip, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 2, 1, 1, Yes, Economy, No, Yes, AUD, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;cardCC&apos;]/div/div/div/label[1]/input&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d36b5a8c25ffed91f64c9e7013409839, findElement {using=xpath, value=//div[@id=&apos;cardCC&apos;]/div/div/div/label[1]/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64381/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d36b5a8c25ffed91f64c9e7013409839
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cPaymentPage.cardPayment(B2cPaymentPage.java:17)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1827558114", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1827558114'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;cardCC&apos;]/div/div/div/label[1]/input&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d36b5a8c25ffed91f64c9e7013409839, findElement {using=xpath, value=//div[@id=&apos;cardCC&apos;]/div/div/div/label[1]/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64381/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d36b5a8c25ffed91f64c9e7013409839
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cPaymentPage.cardPayment(B2cPaymentPage.java:17)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>222</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 15, Positive, Verify round trip flight booking with multi passenger for Domestic and modify search, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, RoundTrip, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), 22-October-2023, 24-October-2023, 2, 1, 1, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, Yes, Yes, RoundTrip, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 2, 1, 1, Yes, Economy, No, Yes, AUD, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f63190a81aa7f66b17929916acae19d9, findElement {using=xpath, value=/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64902}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64902/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f63190a81aa7f66b17929916acae19d9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:332)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace892681064", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace892681064'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f63190a81aa7f66b17929916acae19d9, findElement {using=xpath, value=/html/body/div[1]/div[2]/div/section/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64902}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64902/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f63190a81aa7f66b17929916acae19d9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at utilities.QaRobot.getLocator(QaRobot.java:52)
+	at utilities.QaRobot.getWebElement(QaRobot.java:82)
+	at utilities.QaRobot.ClickOnElement(QaRobot.java:106)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:332)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>107</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 13, Positive, Verify one way flight booking with multi passenger for Domestic and modify search, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, OneWay, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), 11-October-2023, 11-October-2023, 2, 1, 1, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, Yes, Yes, OneWay, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 1, 0, 0, Yes, Economy, No, Yes, INR, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3db63bc6b65b93c8f9b20e3d35d0bd32, findElement {using=xpath, value=(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64789/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db63bc6b65b93c8f9b20e3d35d0bd32
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:204)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2044145049", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2044145049'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3db63bc6b65b93c8f9b20e3d35d0bd32, findElement {using=xpath, value=(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64789/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db63bc6b65b93c8f9b20e3d35d0bd32
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:204)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>100</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 5, Positive, Verify one way flight booking with Individual for Domestic and modify search, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, OneWay, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), 11-October-2023, 11-October-2023, 1, 0, 0, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, Yes, Yes, OneWay, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 1, 0, 0, Yes, Economy, No, Yes, INR, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae9a9907a068a731cde4349261227537, findElement {using=xpath, value=(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64180/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae9a9907a068a731cde4349261227537
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:204)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1655630081", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1655630081'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]&quot;}
+  (Session info: chrome=117.0.5938.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;SHUBHAM&apos;, ip: &apos;192.168.111.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae9a9907a068a731cde4349261227537, findElement {using=xpath, value=(//a[@class=&apos;flght-itnry ng-binding&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.88, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SHUBHA~1.NAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64180/devtoo..., se:cdpVersion: 117.0.5938.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae9a9907a068a731cde4349261227537
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at ajalaXchangeB2C.B2cResultPage.ResultPageForFlight(B2cResultPage.java:204)
+	at ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight(FlightBooking.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>101</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,15 +869,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dnataForAUH.DnataInsuranceForAUH.dnataInsurance()'><b>dnataInsurance</b><br>Test class: dnataForAUH.DnataInsuranceForAUH<br>Parameters: Test Insurance 2, Positive, Verify Individual Insurance with Book Now(Fulfilment)functionality, mo, //aceuat.dnata.com/backoffice/loginggn.aspx, dnah, Shekhar, Shekhar@123, Vinay Pathak, BusinessTravel, Individual, dxb, Dubai, United Arab Emirates - All Airports (DXB), mus, Muscat, Oman - Seeb (MCT), 28-August-2024, 29-August-2024, Individual, 1, 30-Aug-2019, FOP - Cash, No, Yes, dxb, Dubai, United Arab Emirates - All Airports (DXB), mus, Muscat, Oman - Seeb (MCT), Yes, 22-Mar-2023, 24-Mar-2023, Yes, Individual, 1, 20-Aug-2018, Yes, FOP - Cash, 3, Airspace Close,Business Cover,Golf Sports Cover, Book Now, Test, Test, Fulfilment, HOF, Amex Bta</td>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 9, Positive, Verify one way flight booking with multi passenger for Domestic, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, OneWay, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), 11-October-2023, 11-October-2023, 2, 1, 1, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, No, Yes, OneWay, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 1, 0, 0, Yes, Economy, No, Yes, INR, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
 <td></td>
-<td>170</td>
-<td>dnataForAUH.DnataInsuranceForAUH@7bd4937b</td></tr>
+<td>321</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
 <tr>
-<td title='dnataForAUH.DnataInsuranceForAUH.dnataInsurance()'><b>dnataInsurance</b><br>Test class: dnataForAUH.DnataInsuranceForAUH<br>Parameters: Test Insurance 1, Positive, Verify Individual Insurance with Book Now(Quote)functionality, mo, //aceuat.dnata.com/backoffice/loginggn.aspx, dnah, Shekhar, Shekhar@123, Vinay Pathak, BusinessTravel, Individual, dxb, Dubai, United Arab Emirates - All Airports (DXB), mus, Muscat, Oman - Seeb (MCT), 26-August-2024, 27-August-2024, Individual, 1, 30-Aug-2019, FOP - Cash, No, Yes, dxb, Dubai, United Arab Emirates - All Airports (DXB), mus, Muscat, Oman - Seeb (MCT), Yes, 18-Mar-2023, 20-Mar-2023, Yes, Individual, 1, 20-Aug-2018, Yes, FOP - Cash, 3, Airspace Close,Business Cover,Golf Sports Cover, Book Now, Test, Test, Quote, CPG, Master Card</td>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 3, Positive, Verify round trip flight booking with Individual for Domestic, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, RoundTrip, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), 22-October-2023, 24-October-2023, 1, 0, 0, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, No, Yes, RoundTrip, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 2, 1, 1, Yes, Economy, No, Yes, AUD, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
 <td></td>
-<td>302</td>
-<td>dnataForAUH.DnataInsuranceForAUH@7bd4937b</td></tr>
+<td>187</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 1, Positive, Verify one way flight booking with Individual for Domestic, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, OneWay, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), 11-October-2023, 11-October-2023, 1, 0, 0, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, No, Yes, OneWay, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 1, 0, 0, Yes, Economy, No, Yes, INR, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td></td>
+<td>207</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 2, Positive, Verify one way flight booking with Individual for International, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, OneWay, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), 12-October-2023, 12-October-2023, 1, 0, 0, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, No, Yes, OneWay, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 1, 0, 0, Yes, Economy, No, Yes, INR, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td></td>
+<td>206</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 10, Positive, Verify one way flight booking with multi passenger for International, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, OneWay, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), 12-October-2023, 12-October-2023, 2, 1, 1, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, No, Yes, OneWay, Domestic, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 1, 0, 0, Yes, Economy, No, Yes, INR, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td></td>
+<td>320</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 11, Positive, Verify round trip flight booking with multi passenger for Domestic, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, RoundTrip, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), 22-October-2023, 24-October-2023, 2, 1, 1, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, No, Yes, RoundTrip, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 2, 1, 1, Yes, Economy, No, Yes, AUD, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td></td>
+<td>303</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
+<tr>
+<td title='ajalaXchangeB2C.FlightBooking.ajalaB2Cforflight()'><b>ajalaB2Cforflight</b><br>Test class: ajalaXchangeB2C.FlightBooking<br>Parameters: Test Flight 16, Positive, Verify round trip flight booking with multi passenger for International and modify search, Guest, b2c, //xchangev12/Ajala/, shubham.natkar@quadlabs.com, Admin@123, RoundTrip, International, del, Delhi, India - Indira Gandhi Intl (DEL), bom, Mumbai, India - Shivaji Terminal (BOM), 23-October-2023, 25-October-2023, 2, 1, 1, Yes, AUD, Economy, 3, air india,gulf air,Oman air, No, No, Yes, Yes, RoundTrip, Domestic, syd, Sydney, Australia - Kingsford Smith (SYD), mel, Melbourne, Australia - Tullamarine (MEL), Yes, 23-Oct-2023, 25-Oct-2023, Yes, 2, 1, 1, Yes, Economy, No, Yes, AUD, 2, air india,gulf air, No, All, Vistara, Mr,Mrs, Sonu Bansal,Sonia Yadav, 25-Nov-2009,23-May-1986, shubham.natkar@quadlabs.com, 9487689453,7825645669, 78AJI0321K,897NKJ233G, India,Indonesia, 23-Mar-2030,30-Jun-2028, Indian,Indian, Miss,Mstr, Devi Shukla,Abhisha Kanal, 78AJ00321K,897LKJ233G, India,Indonesia, 23-Feb-2026,17-Mar-2028, Indian,Indian, 25-Apr-2015,13-May-2014, Miss,Mstr, Dev Jain,Abhi Sharma, 25-Apr-2022,13-May-2022, Adult1,Adult2, 78A0I0321K,897N0J233G, India,Indonesia, 23-Feb-2030,17-Mar-2031, Indian,Indian, MasterCard, 5123456789012340, Shubham Natkar, 11,2040, 123, Gurgaon, Victoria, syd,Sydney</td>
+<td></td>
+<td>341</td>
+<td>ajalaXchangeB2C.FlightBooking@7bd4937b</td></tr>
 </table><p>
 </body>
 </html>

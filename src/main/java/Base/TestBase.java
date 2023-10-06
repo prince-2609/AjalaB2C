@@ -268,7 +268,7 @@ public class TestBase extends QaExtentReport {
 		QaRobot.ClickOnElement("send_mail");
 		QaExtentReport.test.log(Status.INFO, "<b><i>Clicked on send email button</i></b>");
 
-		QaRobot.explicitwaitalert(100);
+//		QaRobot.explicitwaitalert(100);
 
 		// Switching to Alert
 		Alert alert = QaBrowser.driver.switchTo().alert();

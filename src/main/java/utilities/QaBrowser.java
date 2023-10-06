@@ -48,7 +48,7 @@ public class QaBrowser extends QaRobot {
 //	@SuppressWarnings("deprecation")
 	private void launchChrome()
 	{
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\lib\\chromeUpdate.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\lib\\chromedriverNew.exe");
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("--remote-allow-origins=*"); 
 		driver = (WebDriver) new ChromeDriver(opt);

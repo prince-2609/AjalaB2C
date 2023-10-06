@@ -20,10 +20,8 @@ import Base.TestBase;
 import utilities.QaBrowser;
 import utilities.QaExtentReport;
 
-public class Listener extends TestBase implements ITestListener
-{
-	public void onTestStart(ITestResult result) 
-	{	
+public class Listener extends TestBase implements ITestListener {
+	public void onTestStart(ITestResult result) {
 //		test = report.createTest("");
 	}
 
@@ -31,42 +29,36 @@ public class Listener extends TestBase implements ITestListener
 
 		try {
 
-			if (result.getStatus() == ITestResult.SUCCESS)
-			{
+			if (result.getStatus() == ITestResult.SUCCESS) {
 //				QaRobot.ScreenshotMethod("Successful Test","<b><i>Screenshot for Successful Test</i></b>");
 				QaExtentReport.test.log(Status.PASS, "<b><i>Successful Test</i></b>");
 				test.pass(MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot("Successful Test")).build());
 			}
-		} 
-		catch (IOException e) 
-		{
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 
 	public void onTestFailure(ITestResult result) {
 		try {
-			if (result.getStatus() == ITestResult.FAILURE)
-			{
+			if (result.getStatus() == ITestResult.FAILURE) {
 				result.getThrowable().printStackTrace();
-				//System.out.println(result.getThrowable());
+				// System.out.println(result.getThrowable());
 				QaExtentReport.test.log(Status.FAIL, result.getThrowable());
 				String text = "Fail Test";
 				Date date = new Date();
 				DateFormat d = new SimpleDateFormat("dd-MM-yy & HH-mm-ss");
 				String NewDate = d.format(date);
-				
-				TakesScreenshot ts = (TakesScreenshot)QaBrowser.driver;
+
+				TakesScreenshot ts = (TakesScreenshot) QaBrowser.driver;
 				File Source = ts.getScreenshotAs(OutputType.FILE);
-				File Dest = new File("D:\\Automation\\Dnata\\Screenshot\\"+NewDate+" "+text+".jpg");
+				File Dest = new File("D:\\Automation\\AjalaB2C\\Screenshot\\" + NewDate + " " + text + ".jpg");
 				FileUtils.copyFile(Source, Dest);
 //				QaExtentReport.test.log(Status.FAIL, "<b><i>Screenshot for Fail Test</i></b>");
 				QaExtentReport.test.log(Status.FAIL, "<b><i>Fail Test</i></b>");
 				test.fail(MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot("Fail Test")).build());
 			}
-		} 
-		catch (Exception e) 
-		{
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -79,10 +71,9 @@ public class Listener extends TestBase implements ITestListener
 				test.skip(MediaEntityBuilder.createScreenCaptureFromPath(captureScreenshot("SKIP Test")).build());
 				System.out.println("********* Skipped *********");
 			}
-		} 
-		catch (Exception e) 
-		{
-			e.printStackTrace();;
+		} catch (Exception e) {
+			e.printStackTrace();
+			;
 		}
 	}
 
@@ -90,18 +81,15 @@ public class Listener extends TestBase implements ITestListener
 
 	}
 
-	public void onStart(ITestContext context) 
-	{
+	public void onStart(ITestContext context) {
 		try {
 			init();
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
-	public void onFinish(ITestContext context) 
-	{
+	public void onFinish(ITestContext context) {
 		// driver.quit();
 	}
 }
